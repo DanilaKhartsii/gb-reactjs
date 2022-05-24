@@ -1,3 +1,72 @@
-.hello {
-    color: red;
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatWrapper {
+    height: 50%;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #434a52;
+}
+
+.msgsArea {
+    height: 87%;
+    background: #2c3136;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 12px;
+    overflow: auto;
+}
+
+.user {
+    padding: 7px 0;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.text {
+    margin-top: 8px;
+}
+
+.text > span {
+    background: #416078;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+.actionArea {
+}
+
+.inputMsg {
+    border: 1px solid black;
+    height: 25px;
+    width: 65%;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.sendMsgBtn {
+    font-size: 14px;
+    margin-left: 1%;
+    border-radius: 5px;
+    width: 30%;
+    height: 39px;
+    border: none;
+    background: #3873FF;
+    color: white;
 }
