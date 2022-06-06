@@ -19,7 +19,7 @@
 }
 
 .msgsArea {
-    height: 87%;
+    height: calc(100% - 90px);
     background: #2c3136;
     color: #ffffff;
     border-radius: 15px;
@@ -47,9 +47,6 @@
     font-size: 21px;
 }
 
-.actionArea {
-}
-
 .inputMsg {
     border: 1px solid black;
     height: 25px;
@@ -69,4 +66,9 @@
     border: none;
     background: #3873FF;
     color: white;
+    cursor: pointer;
+}
+
+.sendMsgBtn:active {
+    transform: translateY(1px);
 }
